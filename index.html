@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wide Business Investment & Consultancy Ltd | Rubavu</title>
+  <meta name="description" content="Official website of Wide Business Investment & Consultancy Ltd based in Rubavu, Western Province. Agent Banking (BK, Equity, BPR, Ecobank, I&M) & Quality Stationery Supplies.">
+  
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="theme-dark">
+  
+  <!-- MAIN APP CONTAINER -->
+  <div id="app-container">
+    
+    <!-- 1. CUSTOMER PORTAL -->
+    <div id="customer-view" class="view-panel active">
+      
+      <!-- Sticky Navigation -->
+      <header class="main-header">
+        <div class="header-container">
+          <a href="#" class="logo-area">
+            <div class="logo-icon"><i class="fa-solid fa-chart-line"></i></div>
+            <div class="logo-text">
+              <span class="logo-title">WIDE BUSINESS</span>
+              <span class="logo-subtitle">Investment & Consultancy Ltd</span>
+            </div>
+          </a>
+          
+          <nav class="nav-links">
+            <a href="#hero" class="nav-link active">Home</a>
+            <a href="#banking" class="nav-link">Agent Banking</a>
+            <a href="#stationery" class="nav-link">Stationery Shop</a>
+            <a href="#about" class="nav-link">About Us</a>
+          </nav>
+          
+          <div class="header-actions">
+            <button id="cart-toggle-btn" class="header-btn cart-btn">
+              <i class="fa-solid fa-shopping-basket"></i>
+              <span class="cart-count">0</span>
+            </button>
+            <button id="open-login-btn" class="header-btn login-btn">
+              <i class="fa-solid fa-user-gear"></i>
+              <span>Staff Login</span>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <!-- Hero Banner -->
+      <section id="hero" class="hero-section">
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-container">
+          <div class="hero-content">
+            <div class="badge-tag"><i class="fa-solid fa-location-dot"></i> Rubavu, Western Province</div>
+            <h1>Empowering Communities Through Finance & Knowledge</h1>
+            <p>We are a dual-service hub providing authorized agent banking operations for Rwanda's leading financial institutions and premium stationery supplies for schools, offices, and universities.</p>
+            <div class="hero-actions-group">
+              <a href="#banking" class="btn btn-primary"><i class="fa-solid fa-wallet"></i> Agent Banking</a>
+              <a href="#stationery" class="btn btn-secondary"><i class="fa-solid fa-book-open"></i> Shop Stationery</a>
+            </div>
+          </div>
+          
+          <!-- Quick Info Cards -->
+          <div class="hero-cards-grid">
+            <div class="quick-card">
+              <div class="qc-icon"><i class="fa-solid fa-shield-halved"></i></div>
+              <h3>Secure Banking</h3>
+              <p>Deposits, withdrawals, fees & tax payments for all major banks in one secure spot.</p>
+            </div>
+            <div class="quick-card">
+              <div class="qc-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+              <h3>Premium Stationery</h3>
+              <p>Notebooks, pens, geometrical sets, and copy papers for education & office needs.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Agent Banking Section -->
+      <section id="banking" class="section banking-section">
+        <div class="section-container">
+          <div class="section-header">
+            <span class="section-tag">AUTHORIZED PARTNERSHIP</span>
+            <h2>Unified Agent Banking Hub</h2>
+            <p>Save time and transaction costs. Perform banking operations securely with our integrated local agents representing major commercial banks in Rwanda.</p>
+          </div>
+
+          <!-- Partners Grid -->
+          <div class="banks-grid">
+            <!-- BK -->
+            <div class="bank-card" data-bank="bk">
+              <div class="bank-logo-header bk-theme">
+                <span class="bank-initials">BK</span>
+                <h3>Bank of Kigali</h3>
+              </div>
+              <div class="bank-card-body">
+                <p>Licensed agency bank services covering deposits, withdrawals, and school fees payment portal.</p>
+                <ul class="bank-features">
+                  <li><i class="fa-solid fa-circle-check"></i> Urwego & BK Deposits</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Cash Withdrawals</li>
+                  <li><i class="fa-solid fa-circle-check"></i> School Fees Payments</li>
+                </ul>
+                <button class="btn btn-sm btn-outline bank-info-trigger" data-bank-id="BK"><i class="fa-solid fa-info-circle"></i> Service Details</button>
+              </div>
+            </div>
+
+            <!-- Equity -->
+            <div class="bank-card" data-bank="equity">
+              <div class="bank-logo-header equity-theme">
+                <span class="bank-initials">EQ</span>
+                <h3>Equity Bank</h3>
+              </div>
+              <div class="bank-card-body">
+                <p>Ewuza agent transactions and global transfers cash collection center in Rubavu.</p>
+                <ul class="bank-features">
+                  <li><i class="fa-solid fa-circle-check"></i> Equity Agent Cash In/Out</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Equitel Money Services</li>
+                  <li><i class="fa-solid fa-circle-check"></i> E-payment Solutions</li>
+                </ul>
+                <button class="btn btn-sm btn-outline bank-info-trigger" data-bank-id="Equity"><i class="fa-solid fa-info-circle"></i> Service Details</button>
+              </div>
+            </div>
+
+            <!-- BPR -->
+            <div class="bank-card" data-bank="bpr">
+              <div class="bank-logo-header bpr-theme">
+                <span class="bank-initials">BPR</span>
+                <h3>BPR Bank (KCB Group)</h3>
+              </div>
+              <div class="bank-card-body">
+                <p>Official merchant services for agricultural finance payouts and general business banking.</p>
+                <ul class="bank-features">
+                  <li><i class="fa-solid fa-circle-check"></i> Account Cash Deposits</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Retail Cash Withdrawals</li>
+                  <li><i class="fa-solid fa-circle-check"></i> KCB Ipusha Services</li>
+                </ul>
+                <button class="btn btn-sm btn-outline bank-info-trigger" data-bank-id="BPR"><i class="fa-solid fa-info-circle"></i> Service Details</button>
+              </div>
+            </div>
+
+            <!-- Ecobank -->
+            <div class="bank-card" data-bank="ecobank">
+              <div class="bank-logo-header ecobank-theme">
+                <span class="bank-initials">ECO</span>
+                <h3>Ecobank</h3>
+              </div>
+              <div class="bank-card-body">
+                <p>Pan-African banking agency solutions and digital wallet agent deposits.</p>
+                <ul class="bank-features">
+                  <li><i class="fa-solid fa-circle-check"></i> Ecobank Xpress Points</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Multi-currency Deposits</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Utility Payments (Minedu)</li>
+                </ul>
+                <button class="btn btn-sm btn-outline bank-info-trigger" data-bank-id="Ecobank"><i class="fa-solid fa-info-circle"></i> Service Details</button>
+              </div>
+            </div>
+
+            <!-- I&M -->
+            <div class="bank-card" data-bank="im">
+              <div class="bank-logo-header im-theme">
+                <span class="bank-initials">I&M</span>
+                <h3>I&M Bank</h3>
+              </div>
+              <div class="bank-card-body">
+                <p>Corporate trust payouts and high-value cash receipt agency operations.</p>
+                <ul class="bank-features">
+                  <li><i class="fa-solid fa-circle-check"></i> Business Cash Deposit</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Personal Account Outflow</li>
+                  <li><i class="fa-solid fa-circle-check"></i> RRA Tax Payments</li>
+                </ul>
+                <button class="btn btn-sm btn-outline bank-info-trigger" data-bank-id="IM"><i class="fa-solid fa-info-circle"></i> Service Details</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Service Calculator -->
+          <div class="banking-calculator-card">
+            <div class="bc-left">
+              <h3><i class="fa-solid fa-calculator"></i> Fee Calculator & Limit Checker</h3>
+              <p>Select your transaction type and commercial bank to view authorized transaction parameters.</p>
+              
+              <div class="calculator-form">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="calc-bank">Bank</label>
+                    <select id="calc-bank">
+                      <option value="bk">Bank of Kigali (BK)</option>
+                      <option value="equity">Equity Bank</option>
+                      <option value="bpr">BPR Bank</option>
+                      <option value="ecobank">Ecobank</option>
+                      <option value="im">I&M Bank</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="calc-type">Transaction Type</label>
+                    <select id="calc-type">
+                      <option value="deposit">Cash Deposit</option>
+                      <option value="withdraw">Cash Withdrawal</option>
+                      <option value="school">School Fees / Utility</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="calc-amount">Amount (RWF)</label>
+                  <input type="number" id="calc-amount" placeholder="e.g. 50000" min="100" value="10000">
+                </div>
+                <button id="calc-btn" class="btn btn-primary btn-block">Calculate Details</button>
+              </div>
+            </div>
+            
+            <div class="bc-right" id="calculator-result">
+              <div class="result-placeholder">
+                <i class="fa-solid fa-circle-info"></i>
+                <p>Enter the details on the left and click calculate to view limits, charges, and process speed.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stationery Shop Section -->
+      <section id="stationery" class="section stationery-section">
+        <div class="section-container">
+          <div class="section-header">
+            <span class="section-tag">QUALITY STATIONERY SUPPLIES</span>
+            <h2>Wide Books & Office Stationery</h2>
+            <p>Browse our catalog of textbooks, copy papers, mathematical instruments, and office consumables. Add to your inquiry list to request a quote.</p>
+          </div>
+
+          <!-- Store Controls -->
+          <div class="store-controls">
+            <div class="search-box">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" id="store-search" placeholder="Search books, pens, notebooks...">
+            </div>
+            
+            <div class="category-tabs" id="category-tabs-container">
+              <button class="category-tab active" data-category="all">All Items</button>
+              <button class="category-tab" data-category="Books & Notebooks">Books & Notebooks</button>
+              <button class="category-tab" data-category="School Supplies">School Supplies</button>
+              <button class="category-tab" data-category="Office Paper">Office Paper</button>
+              <button class="category-tab" data-category="Writing Instruments">Writing Instruments</button>
+              <button class="category-tab" data-category="Office Equipment">Equipment</button>
+            </div>
+            
+            <div class="sort-selector">
+              <label for="store-sort">Sort by</label>
+              <select id="store-sort">
+                <option value="default">Default</option>
+                <option value="price-low">Price: Low to High</option>
+                <option value="price-high">Price: High to Low</option>
+                <option value="stock-high">In Stock First</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Products Grid -->
+          <div class="products-grid" id="products-catalog">
+            <!-- Dynamically populated via app.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- About & Location Section -->
+      <section id="about" class="section about-section">
+        <div class="section-container">
+          <div class="about-grid">
+            <div class="about-details">
+              <span class="section-tag">WHO WE ARE</span>
+              <h2>Wide Business Investment & Consultancy Ltd</h2>
+              <p class="lead-text">Established and registered in Rwanda, we serve the vibrant border community of Rubavu District, Western Province.</p>
+              <p>We believe in the power of combined resources. By housing banking points and a diverse stationery supply depot under one roof, we streamline workflows for teachers, students, small-scale businesses, and cross-border traders operating in the Western Province.</p>
+              
+              <div class="company-credentials-card">
+                <h3>Official Registration</h3>
+                <div class="credentials-grid">
+                  <div class="credential-item">
+                    <span class="c-label">TIN Number</span>
+                    <span class="c-val">103448413</span>
+                  </div>
+                  <div class="credential-item">
+                    <span class="c-label">Province</span>
+                    <span class="c-val">Western Province</span>
+                  </div>
+                  <div class="credential-item">
+                    <span class="c-label">District</span>
+                    <span class="c-val">Rubavu District</span>
+                  </div>
+                  <div class="credential-item">
+                    <span class="c-label">Operations</span>
+                    <span class="c-val">Financial Agency & Retail Supplies</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact Card / Map placeholder -->
+            <div class="contact-info-card">
+              <div class="card-header">
+                <h3>Contact & Operations</h3>
+                <p>Rubavu Central Office & Banking Desk</p>
+              </div>
+              <div class="card-body">
+                <div class="contact-detail-row">
+                  <div class="cd-icon"><i class="fa-solid fa-phone"></i></div>
+                  <div class="cd-text">
+                    <span class="cd-label">Phone Contacts</span>
+                    <span class="cd-value"><a href="tel:0788830376">0788 830 376</a> / <a href="tel:0788215695">0788 215 695</a></span>
+                  </div>
+                </div>
+                
+                <div class="contact-detail-row">
+                  <div class="cd-icon"><i class="fa-solid fa-envelope"></i></div>
+                  <div class="cd-text">
+                    <span class="cd-label">Email Support</span>
+                    <span class="cd-value"><a href="mailto:widebusinessltd@gmail.com">widebusinessltd@gmail.com</a></span>
+                  </div>
+                </div>
+
+                <div class="contact-detail-row">
+                  <div class="cd-icon"><i class="fa-solid fa-business-time"></i></div>
+                  <div class="cd-text">
+                    <span class="cd-label">Operating Hours</span>
+                    <span class="cd-value">Mon - Sat: 7:30 AM - 8:30 PM<br>Sun: 12:00 PM - 6:00 PM</span>
+                  </div>
+                </div>
+
+                <div class="contact-detail-row">
+                  <div class="cd-icon"><i class="fa-solid fa-building-columns"></i></div>
+                  <div class="cd-text">
+                    <span class="cd-label">Banking Partner Networks</span>
+                    <span class="cd-value text-glow">BK, Equity, BPR, Ecobank, I&M Bank</span>
+                  </div>
+                </div>
+                
+                <!-- Inquiry Quick Message Form -->
+                <div class="quick-inquiry-box">
+                  <h4>Send Online Inquiry</h4>
+                  <form id="hero-inquiry-form">
+                    <input type="text" id="inq-name" placeholder="Your Name" required>
+                    <input type="email" id="inq-email" placeholder="Your Email" required>
+                    <textarea id="inq-msg" placeholder="Your question/request..." rows="2" required></textarea>
+                    <button type="submit" class="btn btn-sm btn-primary btn-block">Send Quick Inquiry</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cart Drawer Slider -->
+      <div id="cart-drawer" class="cart-drawer">
+        <div class="cart-drawer-overlay"></div>
+        <div class="cart-drawer-content">
+          <div class="cart-header">
+            <h3><i class="fa-solid fa-cart-shopping"></i> Shopping List</h3>
+            <button id="cart-close-btn" class="close-btn">&times;</button>
+          </div>
+          
+          <div class="cart-body">
+            <!-- Dynamically populated cart items -->
+            <div id="cart-items-container" class="cart-items-list">
+              <!-- JS will inject items -->
+            </div>
+          </div>
+          
+          <div class="cart-footer">
+            <div class="cart-summary-row">
+              <span>Subtotal:</span>
+              <span id="cart-subtotal">0 RWF</span>
+            </div>
+            <p class="cart-disclaimer">Submit list below to finalize reservation & confirm stock levels.</p>
+            <div class="cart-actions">
+              <button id="checkout-inquiry-btn" class="btn btn-primary btn-block"><i class="fa-brands fa-whatsapp"></i> Inquiry via WhatsApp</button>
+              <button id="checkout-email-btn" class="btn btn-secondary btn-block"><i class="fa-solid fa-envelope"></i> Inquiry via Email</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Partner Info Modal -->
+      <div id="bank-info-modal" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 id="bank-modal-title">Bank Service Info</h3>
+            <button id="bank-modal-close" class="close-btn">&times;</button>
+          </div>
+          <div class="modal-body" id="bank-modal-body">
+            <!-- Dynamic Bank Details -->
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" id="bank-modal-close-btn">Close</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Legal Footer -->
+      <footer class="main-footer">
+        <div class="footer-container">
+          <div class="footer-about">
+            <h4>WIDE BUSINESS INVESTMENT & CONSULTANCY LTD</h4>
+            <p>TIN: 103448413 | Rubavu District, Western Province, Rwanda</p>
+          </div>
+          <div class="footer-links">
+            <a href="#hero">Back to Top</a>
+            <a href="#banking">Agent Banking</a>
+            <a href="#stationery">Stationery Catalog</a>
+          </div>
+          <div class="footer-copy">
+            <p>&copy; 2026 Wide Business Investment & Consultancy Ltd. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <!-- 2. ADMIN PORTAL (DASHBOARD) -->
+    <div id="admin-view" class="view-panel">
+      <!-- Dashboard Top Header -->
+      <header class="dashboard-header">
+        <div class="db-header-container">
+          <div class="db-logo">
+            <i class="fa-solid fa-gears text-glow"></i>
+            <div>
+              <span class="db-logo-title">WIDE BUSINESS</span>
+              <span class="db-logo-subtitle">Administration Terminal</span>
+            </div>
+          </div>
+          
+          <div class="db-user-actions">
+            <span class="db-user-info"><i class="fa-solid fa-circle-user"></i> Connected: <strong id="admin-user-display">Admin</strong></span>
+            <button id="switch-view-btn" class="btn btn-sm btn-secondary"><i class="fa-solid fa-shop"></i> View Shop</button>
+            <button id="logout-btn" class="btn btn-sm btn-danger"><i class="fa-solid fa-sign-out-alt"></i> Logout</button>
+          </div>
+        </div>
+      </header>
+
+      <!-- Dashboard Wrapper -->
+      <div class="dashboard-wrapper">
+        <!-- Dashboard Sidebar -->
+        <aside class="dashboard-sidebar">
+          <nav class="sidebar-nav">
+            <button class="sidebar-tab-btn active" data-tab="overview">
+              <i class="fa-solid fa-chart-pie"></i>
+              <span>Overview</span>
+            </button>
+            <button class="sidebar-tab-btn" data-tab="products">
+              <i class="fa-solid fa-boxes-stacked"></i>
+              <span>Products Inventory</span>
+            </button>
+            <button class="sidebar-tab-btn" data-tab="stock-log">
+              <i class="fa-solid fa-list-check"></i>
+              <span>Stock Transactions</span>
+            </button>
+          </nav>
+        </aside>
+
+        <!-- Dashboard Content Panels -->
+        <main class="dashboard-main-content">
+          
+          <!-- TAB 1: OVERVIEW -->
+          <div class="db-tab-panel active" id="db-panel-overview">
+            <div class="panel-header">
+              <h2>Inventory & Business Performance Overview</h2>
+              <p>Key metrics and performance alerts for Wide Business Investment & Consultancy Ltd.</p>
+            </div>
+            
+            <!-- Metrics Cards -->
+            <div class="metrics-grid">
+              <div class="metric-card bg-glass">
+                <div class="mc-header">
+                  <span>Total Stationery Products</span>
+                  <i class="fa-solid fa-tags"></i>
+                </div>
+                <div class="mc-value" id="metric-total-products">0</div>
+                <p class="mc-footer">Active in catalog</p>
+              </div>
+
+              <div class="metric-card bg-glass warning-card-border" id="metric-low-stock-card">
+                <div class="mc-header">
+                  <span>Low Stock Items</span>
+                  <i class="fa-solid fa-triangle-exclamation"></i>
+                </div>
+                <div class="mc-value text-warning" id="metric-low-stock">0</div>
+                <p class="mc-footer">Below minimum stock threshold</p>
+              </div>
+
+              <div class="metric-card bg-glass">
+                <div class="mc-header">
+                  <span>Total Capital Invested</span>
+                  <i class="fa-solid fa-sack-dollar"></i>
+                </div>
+                <div class="mc-value" id="metric-total-cost">0 RWF</div>
+                <p class="mc-footer">Value based on cost prices</p>
+              </div>
+
+              <div class="metric-card bg-glass">
+                <div class="mc-header">
+                  <span>Expected Total Sales</span>
+                  <i class="fa-solid fa-chart-line-up"></i>
+                </div>
+                <div class="mc-value text-success" id="metric-total-value">0 RWF</div>
+                <p class="mc-footer">Value based on selling prices</p>
+              </div>
+            </div>
+
+            <!-- Double Column Layout -->
+            <div class="db-columns-grid">
+              <!-- Low Stock Alerts List -->
+              <div class="db-col bg-glass">
+                <h3><i class="fa-solid fa-bell text-warning"></i> Low Stock Alerts</h3>
+                <div class="table-responsive-container">
+                  <table class="db-table compact-table">
+                    <thead>
+                      <tr>
+                        <th>Product</th>
+                        <th>Category</th>
+                        <th>Stock</th>
+                        <th>Min Req.</th>
+                        <th>Action</th>
+                      </tr>
+                    </thead>
+                    <tbody id="low-stock-alerts-list">
+                      <!-- Dynamically added -->
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <!-- Quick Stock Transaction Logger -->
+              <div class="db-col bg-glass">
+                <h3><i class="fa-solid fa-file-invoice-dollar"></i> Log Stock Operation</h3>
+                <form id="quick-stock-logger-form" class="dashboard-form">
+                  <div class="form-group">
+                    <label for="log-product-id">Select Product</label>
+                    <select id="log-product-id" required>
+                      <!-- Populated dynamically -->
+                    </select>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="log-type">Transaction Type</label>
+                      <select id="log-type" required>
+                        <option value="purchase">Purchase (Restock)</option>
+                        <option value="sale">Sale (Invoice Out)</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="log-quantity">Quantity</label>
+                      <input type="number" id="log-quantity" min="1" placeholder="Qty" required>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="log-price">Unit Price (RWF)</label>
+                      <input type="number" id="log-price" min="0" placeholder="RWF" required>
+                      <small class="form-hint" id="log-price-hint">Defaults to standard price</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="log-notes">Operation Notes</label>
+                      <input type="text" id="log-notes" placeholder="Supplier / Customer info...">
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-block"><i class="fa-solid fa-circle-check"></i> Register Transaction</button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB 2: PRODUCTS CRUD -->
+          <div class="db-tab-panel" id="db-panel-products">
+            <div class="panel-header db-flex-header">
+              <div>
+                <h2>Product Registry Catalog</h2>
+                <p>Register new stationery items, adjust prices, edit details, and manage catalog data.</p>
+              </div>
+              <button id="add-product-btn" class="btn btn-primary"><i class="fa-solid fa-plus-circle"></i> Add New Product</button>
+            </div>
+
+            <!-- Product Search and Filter in Dashboard -->
+            <div class="db-controls-row">
+              <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="db-products-search" placeholder="Search registry...">
+              </div>
+              <div class="db-select-group">
+                <select id="db-products-filter-category">
+                  <option value="all">All Categories</option>
+                  <option value="Books & Notebooks">Books & Notebooks</option>
+                  <option value="School Supplies">School Supplies</option>
+                  <option value="Office Paper">Office Paper</option>
+                  <option value="Writing Instruments">Writing Instruments</option>
+                  <option value="Office Equipment">Equipment</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Products Registry Table -->
+            <div class="table-responsive-container bg-glass p-2 rounded">
+              <table class="db-table">
+                <thead>
+                  <tr>
+                    <th>Product Details</th>
+                    <th>Category</th>
+                    <th>Cost Price (RWF)</th>
+                    <th>Selling Price (RWF)</th>
+                    <th>Stock Level</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody id="db-products-list">
+                  <!-- Dynamically populated -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- TAB 3: STOCK LOG -->
+          <div class="db-tab-panel" id="db-panel-stock-log">
+            <div class="panel-header">
+              <h2>Inventory Stock Ledger</h2>
+              <p>Auditable log of all purchases, sales, and adjustments made to the warehouse inventory.</p>
+            </div>
+
+            <div class="db-controls-row">
+              <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="db-tx-search" placeholder="Search transactions...">
+              </div>
+              <div class="db-select-group">
+                <select id="db-tx-filter-type">
+                  <option value="all">All Types</option>
+                  <option value="purchase">Purchases (Restock)</option>
+                  <option value="sale">Sales (Outflows)</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Transaction Ledger Table -->
+            <div class="table-responsive-container bg-glass p-2 rounded">
+              <table class="db-table">
+                <thead>
+                  <tr>
+                    <th>Date & Time</th>
+                    <th>Product</th>
+                    <th>Transaction Type</th>
+                    <th>Quantity</th>
+                    <th>Unit Price (RWF)</th>
+                    <th>Total Price (RWF)</th>
+                    <th>Details / Notes</th>
+                  </tr>
+                </thead>
+                <tbody id="db-transactions-list">
+                  <!-- Dynamically populated -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+        </main>
+      </div>
+    </div>
+
+    <!-- 3. LOGIN MODAL OVERLAY -->
+    <div id="login-modal" class="modal">
+      <div class="modal-overlay"></div>
+      <div class="modal-content small-modal">
+        <div class="modal-header">
+          <h3><i class="fa-solid fa-lock text-glow"></i> Administrative Login</h3>
+          <button id="login-modal-close" class="close-btn">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p class="login-instruction">Please enter your Wide Business credentials to access the inventory system.</p>
+          <div class="alert-box error-alert hidden" id="login-error-box">
+            <i class="fa-solid fa-circle-exclamation"></i> <span id="login-error-msg">Error</span>
+          </div>
+          <form id="admin-login-form">
+            <div class="form-group">
+              <label for="login-username">Username</label>
+              <input type="text" id="login-username" placeholder="e.g. admin" required autocomplete="username">
+            </div>
+            <div class="form-group">
+              <label for="login-password">Password</label>
+              <input type="password" id="login-password" placeholder="••••••••" required autocomplete="current-password">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block"><i class="fa-solid fa-sign-in-alt"></i> Login to Terminal</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. PRODUCT EDIT/ADD MODAL (ADMIN) -->
+    <div id="product-modal" class="modal">
+      <div class="modal-overlay"></div>
+      <div class="modal-content medium-modal">
+        <div class="modal-header">
+          <h3 id="product-modal-title">Add New Product</h3>
+          <button id="product-modal-close" class="close-btn">&times;</button>
+        </div>
+        <div class="modal-body">
+          <form id="product-crud-form" class="dashboard-form">
+            <input type="hidden" id="crud-product-id">
+            
+            <div class="form-group">
+              <label for="crud-name">Product Name</label>
+              <input type="text" id="crud-name" placeholder="e.g. Standard Ruled Notebook A5" required>
+            </div>
+
+            <div class="form-group">
+              <label for="crud-description">Description</label>
+              <textarea id="crud-description" placeholder="Technical/retail specifications..." rows="2"></textarea>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="crud-category">Category</label>
+                <select id="crud-category" required>
+                  <option value="Books & Notebooks">Books & Notebooks</option>
+                  <option value="School Supplies">School Supplies</option>
+                  <option value="Office Paper">Office Paper</option>
+                  <option value="Writing Instruments">Writing Instruments</option>
+                  <option value="Office Equipment">Office Equipment</option>
+                  <option value="General">General Stationery</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="crud-image">Image Theme</label>
+                <select id="crud-image">
+                  <option value="assets/exercise_book_96.jpg">A5 Exercise Book (Ruled)</option>
+                  <option value="assets/notebook_a4_200.jpg">A4 Grid/Ruled Notebook</option>
+                  <option value="assets/mathematical_set.jpg">Mathematical Instruments Set</option>
+                  <option value="assets/a4_paper_ream.jpg">Copy Paper Ream</option>
+                  <option value="assets/pens_blue_pack.jpg">Pack of Pens</option>
+                  <option value="assets/scientific_calculator.jpg">Scientific Calculator</option>
+                  <option value="assets/placeholder.jpg">Standard Placeholder</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="crud-cost-price">Cost Price (RWF)</label>
+                <input type="number" id="crud-cost-price" min="0" placeholder="e.g. 500" required>
+              </div>
+              <div class="form-group">
+                <label for="crud-price">Selling Price (RWF)</label>
+                <input type="number" id="crud-price" min="0" placeholder="e.g. 800" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group" id="crud-stock-group">
+                <label for="crud-stock">Initial Stock Level</label>
+                <input type="number" id="crud-stock" min="0" placeholder="e.g. 50" value="0">
+              </div>
+              <div class="form-group">
+                <label for="crud-min-stock">Low Stock Limit Alert</label>
+                <input type="number" id="crud-min-stock" min="1" placeholder="e.g. 5" value="5" required>
+              </div>
+            </div>
+
+            <div class="modal-form-actions">
+              <button type="button" class="btn btn-secondary" id="product-modal-cancel-btn">Cancel</button>
+              <button type="submit" class="btn btn-primary" id="product-modal-save-btn">Save Product</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Application Entry Point -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
