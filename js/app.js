@@ -9,6 +9,7 @@ let searchQuery = '';
 let currentSort = 'default';
 let activeDashboardTab = 'overview';
 const rwandanPhone = '250788830376'; // Primary contact WhatsApp: +250 788 830 376
+// Some changes
 
 // --- Bank Service Parameters ---
 const BANK_DETAILS = {
